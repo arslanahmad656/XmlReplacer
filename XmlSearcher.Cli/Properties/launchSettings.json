@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "XmlSearcher.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\UsercubeDemo\\Conf.EmailCx ResourceCorrelationRule SourceExpression \"C#:resource:return null;\""
+    }
+  }
+}

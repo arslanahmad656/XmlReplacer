@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlReplacer.Engine", "XmlRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlReplacer.Models", "XmlReplacer.Models\XmlReplacer.Models.csproj", "{022D7F07-C797-455C-8E36-4B7D5BD6003C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSearcher.Cli", "XmlSearcher.Cli\XmlSearcher.Cli.csproj", "{75C5510B-FB00-4EC9-94BD-2EACEC8EA4E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{022D7F07-C797-455C-8E36-4B7D5BD6003C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{022D7F07-C797-455C-8E36-4B7D5BD6003C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{022D7F07-C797-455C-8E36-4B7D5BD6003C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C5510B-FB00-4EC9-94BD-2EACEC8EA4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C5510B-FB00-4EC9-94BD-2EACEC8EA4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C5510B-FB00-4EC9-94BD-2EACEC8EA4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C5510B-FB00-4EC9-94BD-2EACEC8EA4E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
