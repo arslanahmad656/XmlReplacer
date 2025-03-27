@@ -2,7 +2,7 @@
 
 public class Replacer
 {
-    public Replacer(string rootPath, bool isRecursive)
+    public Replacer(string rootPath)
     {
         if (!Path.Exists(rootPath))
         {
@@ -10,11 +10,9 @@ public class Replacer
         }
 
         RootPath = rootPath;
-        IsRecursive = isRecursive;
     }
 
     public string RootPath { get; }
-    public bool IsRecursive { get; }
 
     public void SetAttributeValue(string elementName, string attributeName, string newValue, Action<Exception> onError) => XmlHelper.UpdateXmlAttributes(RootPath, elementName, attributeName, newValue, onError);
 }
